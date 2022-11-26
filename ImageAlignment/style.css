@@ -1,0 +1,15 @@
+div {    
+  border: 2px solid red;  
+  }  
+  img{  
+  height: 250px;  
+  width: 250px;  
+  }  
+ #left {    
+  text-align: left;  
+  }  
+  #center {    
+  text-align: center;  
+  }  
+  #right{    
+  text-align: right;  
