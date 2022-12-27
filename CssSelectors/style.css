@@ -7,18 +7,22 @@ body {
 }
 
 /* Child Selector */
-.container > h1 {
+/* .container > h1 {
   color: orangered;
-}
+} */
 
 
 /* General Sibling Selector */
-#container-id ~ .container h1 {
+/* #container-id ~ .container h1 {
   color: orangered;
-}
+} */
 
 
 /* Adjacent Sibling Selector */
-#container-id + .container h1 {
+/* #container-id + .container h1 {
   color: orangered;
+} */
+
+div:not(.grid-container, .container-one) {
+  background: aqua;
 }
