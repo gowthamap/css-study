@@ -2,10 +2,23 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-  color: orangered;
+.container{
+  outline: 1px solid black;
 }
 
-h1[class^="sec"] {
-  color: black;
+/* Child Selector */
+/* .container > h1 {
+  color: orangered;
+} */
+
+
+/* General Sibling Selector */
+/* #container-id ~ .container h1 {
+  color: orangered;
+} */
+
+
+/* Adjacent Sibling Selector */
+#container-id + .container h1 {
+  color: orangered;
 }
