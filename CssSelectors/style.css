@@ -23,7 +23,7 @@ body {
   color: orangered;
 } */
 
-div:not(.grid-container, .container-one) {
+/* div:not(.grid-container, .container-one) {
   background: aqua;
 }
 
@@ -33,4 +33,8 @@ div:not(.grid-container, .container-one) {
 
 :where(.inside-one, .inside-two, .inside-three, .inside-four) span{
   color: purple;
+} */
+
+h1:has(a) {
+  color: orangered;
 }
